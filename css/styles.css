@@ -43,11 +43,14 @@ body {
 
 .header-nav-list {
     display: flex;
+    gap: 31px;
 }
 
-.header-nav-item:not(:last-child) {
+/* .header-nav-item:not(:last-child) {
     margin-right: 31px;
-}
+} */
+
+
 
 .header-logo {
     margin-right: 433px;
@@ -67,10 +70,105 @@ body {
 
     color: #F7941E;
     background-color: transparent;
+    text-transform: uppercase;
 }
 
 .header-nav-link {
     display: inline-block;
     padding: 47px 0;
+}
+
+/* Hero */
+
+.hero {
+    background-color: #F1F1F2;
+}
+
+.container {}
+
+.hero-container {
+    display: flex;
+}
+
+.content {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-wrap {
+    width: 433px;
+
+}
+
+.hero-title {
+    margin-bottom: 36px;
+
+    font-size: 56px;
+    line-height: 1.17;
+}
+
+.hero-text {
+    margin-bottom: 60px;
+
+    font-size: 20px;
+    line-height: 1.4;
+
+}
+
+.hero-button {
+    padding: 19px 25px;
+    background-color: #F7941E; 
+    border-radius: 5px;
+    border: none;
+
+    font-size: 18px;
+    line-height: 1.22;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+/* About */
+
+.about {
+    background-color: #F1F1F2;
+}
+
+.container {}
+
+.about-container {
+    display: flex;
+}
+
+.content {}
+
+.content-wrap {}
+
+.about-title {
+    margin-bottom: 23px;
+
+    font-size: 32px;
+    line-height: 1.41;
+}
+
+.about-text {
+    margin-bottom: 35px;
+
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.about-link {
+    display: inline-block;
+    padding: 19px 25px;
+    border-radius: 5px;
+    border:  1px solid #F7941E;
+
+    color: #F7941E;
+    text-transform: uppercase;
+
+    font-size: 18px;
+    line-height: 1.33;
 }
 
