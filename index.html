@@ -4,20 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">logo</a>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Blogs</a></li>
-        </ul>
-      </nav>
-      <button type="button">Gift Finder</button>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="header-logo" href="./index.html">logo</a>
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="#">About Us</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="#">Services</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="#">Blogs</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header-button" type="button">Gift Finder</button>
+      </div>
     </header>
 
     <main>
@@ -83,10 +108,10 @@
           “Try our blog to find the best tips and tricks to select your gift”
         </p>
         <article>
-            <img src="./img/couple1.jpg" alt="couple1" width="400">
-            <p>Mr. John Doe</p>
-            <h1>The best way to wish your wife</h1>
-            <a href="#">Read More</a>
+          <img src="./img/couple1.jpg" alt="couple1" width="400" />
+          <p>Mr. John Doe</p>
+          <h1>The best way to wish your wife</h1>
+          <a href="#">Read More</a>
         </article>
       </section>
       <section>
@@ -94,12 +119,20 @@
         <ul>
           <li>
             <h3>Database to find the gifts for your girlfriend</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore...
+            </p>
             <a href="">Read More</a>
           </li>
           <li>
-            <h3>How Artificial Intelligence read your mind to find the best gift</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+            <h3>
+              How Artificial Intelligence read your mind to find the best gift
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore...
+            </p>
             <a href="">Read More</a>
           </li>
         </ul>
@@ -108,18 +141,18 @@
 
     <footer>
       <nav>
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-      </ul>
-      <a href="./index.html">logo</a>
-      <ul>
-        <li><a href="">Service</a></li>
-        <li><a href="">Blog</a></li>
-      </ul>
-    </nav>
-    <p>&copy; 2010 — 2020</p>
-    <p>Privacy — Terms</p>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+        <a href="./index.html">logo</a>
+        <ul>
+          <li><a href="">Service</a></li>
+          <li><a href="">Blog</a></li>
+        </ul>
+      </nav>
+      <p>&copy; 2010 — 2020</p>
+      <p>Privacy — Terms</p>
     </footer>
   </body>
 </html>
