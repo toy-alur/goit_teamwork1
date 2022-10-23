@@ -1,0 +1,93 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+}
+
+.container {
+  width: 1440;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-nav-list {
+  display: flex;
+}
+
+.header-nav-item:not(:last-child) {
+  margin-right: 31px;
+}
+
+.header-logo {
+  margin-right: 433px;
+  margin-left: 80px84;
+}
+
+.header-button {
+  margin-left: auto;
+}
+
+.header-nav-link {
+  display: inline-block;
+  padding: 47px 0;
+  /* v dz 32px  */
+}
+
+/* 12:10 */
+.hero {}
+
+.container {}
+
+.hero-container {
+  display: flex;
+}
+
+.content {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* position: absolute;  не использовать!!!!*/
+
+.content-wrap {}
+
+.hero-title {
+  font-size: 56px;
+  line-heigt: 1.17;
+}
+
+.hero-text {}
