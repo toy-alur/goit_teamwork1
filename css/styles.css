@@ -217,4 +217,38 @@ body {
 
 .gifts-cards-texts {
   padding: 24px;
+} 
+
+/* /* .get-ready  */
+
+.get-ready {
+    padding-top: 81px;
+    padding-bottom: 69px;
+    background-color: #F7941E;
+}
+
+.container-3 {
+  width: 970px;
+  margin: 0 auto;
+
+}
+.get-ready-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.get-wrapper{
+    
+
+}
+
+.get-ready-text {
+}
+.get-ready-list {
+    display: flex;
+    gap: 16px;
+}
+.get-ready-item {
+}
+.get-ready-item-btn {
 }
