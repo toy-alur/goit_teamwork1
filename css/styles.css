@@ -287,3 +287,24 @@ body {
   margin-bottom: 60px;
   max-width: 492px;
 }
+
+.block {
+  padding-bottom: 80px;
+}
+.block-list {
+  display: flex;
+  gap: 38px;
+}
+.block-item {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 56px;
+  padding-right: 40px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+.block-item-title {
+  margin-bottom: 16px;
+}
+.block-item-text {
+   margin-bottom: 16px;
+}
